@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+#game-container {
+  padding: 20px;
+}
+#timer {
+  font-size: 2em;
+  color: red;
+}
+#command {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+.shape {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  border: 2px solid white;
+}
+.circle {
+  border-radius: 50%;
+}
+.square {}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid white;
+}
